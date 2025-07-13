@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Association É Maï Oko</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo" style="display: flex; align-items: center; gap: 12px;">
+                <img src="images/logo.png" alt="Logo" style="height: 40px; width: 40px; object-fit: contain;">
+                <h2 style="display: flex; align-items: center; gap: 8px; margin: 0;">
+                    <span style="font-weight: 700; letter-spacing: 1px;">É</span>
+                    <span style="font-weight: 700; letter-spacing: 1px;">Maï Oko</span>
+                </h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#accueil" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#a-propos" class="nav-link">À Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#missions" class="nav-link">Nos Missions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projets" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#equipe" class="nav-link">Équipe</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#rejoignez-nous" class="nav-link nav-join">Rejoignez-nous</a>
+                </li>
+                <li class="nav-item">
+                    <div class="language-selector">
+                        <button class="language-btn" id="languageBtn">
+                            <span class="current-flag">🇫🇷</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="language-dropdown" id="languageDropdown">
+                            <div class="language-option" data-lang="fr">
+                                <span class="flag">🇫🇷</span>
+                                <span class="lang-name">Français</span>
+                            </div>
+                            <div class="language-option" data-lang="en">
+                                <span class="flag">🇬🇧</span>
+                                <span class="lang-name">English</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Bienvenue à l'Association <br><span style="font-weight: 700; letter-spacing: 1px;">"É</span><span style="font-weight: 700; letter-spacing: 1px;"> Maï Oko"</span>
+            </h1>
+            <p class="hero-subtitle">Ensemble pour un avenir meilleur.</p>
+            <p class="hero-description">
+                Nous œuvrons pour le développement communautaire et l'amélioration des conditions de vie de notre société.
+            </p>
+            <div class="hero-buttons">
+                <a href="#a-propos" class="btn btn-primary">Découvrir</a>
+                <a href="#contact" class="btn btn-secondary">Nous Contacter</a>
+            </div>
+        </div>
+        <div class="hero-image-carousel">
+            <div class="carousel-item" style="display:block;">
+                <img class="carousel-img" src="images/éducation.jpg" alt="Éducation">
+                <div class="carousel-info">
+                    <h3>Éducation pour Tous</h3>
+                    <p>Promouvoir l'accès à l'éducation et soutenir la formation professionnelle pour un avenir meilleur.</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="display:none;">
+                <img class="carousel-img" src="images/santé.jpg" alt="Santé">
+                <div class="carousel-info">
+                    <h3>Santé Communautaire</h3>
+                    <p>Améliorer l'accès aux soins de santé et sensibiliser aux bonnes pratiques sanitaires.</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="display:none;">
+                <img class="carousel-img" src="images/environnement.jpeg" alt="Environnement">
+                <div class="carousel-info">
+                    <h3>Protection de l'Environnement</h3>
+                    <p>Protéger notre environnement et promouvoir des pratiques écologiques durables.</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="display:none;">
+                <img class="carousel-img" src="images/relance_économique.jpg" alt="Relance Économique">
+                <div class="carousel-info">
+                    <h3>Relance Économique</h3>
+                    <p>Stimuler l'économie locale à travers l'entrepreneuriat et la création d'emplois.</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="display:none;">
+                <img class="carousel-img" src="images/vbg.jpeg" alt="Protection Civile">
+                <div class="carousel-info">
+                    <h3>Protection Civile</h3>
+                    <p>Prévenir les risques et protéger les populations lors des catastrophes naturelles.</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="display:none;">
+                <img class="carousel-img" src="images/sécurité_alimentaire.jpg" alt="Sécurité Alimentaire">
+                <div class="carousel-info">
+                    <h3>Sécurité Alimentaire</h3>
+                    <p>Assurer l'accès à une alimentation saine et lutter contre la malnutrition.</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="display:none;">
+                <img class="carousel-img" src="images/hygiene.jpg" alt="Eau et Hygiène">
+                <div class="carousel-info">
+                    <h3>Eau, Hygiène et Assainissement</h3>
+                    <p>Favoriser l'accès à l'eau potable et promouvoir l'hygiène pour la santé publique.</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="display:none;">
+                <img class="carousel-img" src="images/bonne gouvernance.jpeg" alt="Bonne Gouvernance">
+                <div class="carousel-info">
+                    <h3>Bonne Gouvernance</h3>
+                    <p>Promouvoir la transparence et l'éthique dans la gestion des affaires publiques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À Propos Section -->
+    <section id="a-propos" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>À Propos de Nous</h2>
+                <p>Découvrez notre histoire et nos valeurs</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Notre Histoire</h3>
+                    <p>
+                        L'association E Maï Oko (Développons nous en-semble en langue Sango) a été créée le 28 Mai 2022
+                        à Bangui par les adhérents de ladite association.. Son siège se situe au quartier Gobongo Wananga dans le
+                        4e Arrondissement de Bangui. Sa devise est ; Solidarité-Travail-Développement. L'objectif de l'association est d'assurer un développement socio-
+                        économique et culturel pour l'atteinte des Objectifs Durable pour le Développement (ODD). 
+                        Nous croyons en la force de l'unité et en la capacité de chacun à contribuer au bien-être collectif.
+                    </p>
+                    <h3>Nos Valeurs</h3>
+                    <ul class="values-list">
+                        <li><i class="fas fa-heart"></i> Solidarité</li>
+                        <li><i class="fas fa-hands-helping"></i> Travail</li>
+                        <li><i class="fas fa-leaf"></i> Développement</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/affiche e mai oko.jpeg" alt="Nos valeurs">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Section Partenaires -->
+        <div class="partners-section">
+            <div class="section-header">
+                <h2>Nous et nos Partenaires</h2>
+                <p>Ensemble pour un impact plus fort</p>
+            </div>
+            <div class="partners-grid">
+                <div class="partner-logo">
+                    <img src="images/COOPI.jpg" alt="Partenaire 1">
+                    <h4 class="partner-name" data-translate="partner-coopi">L'ONG Internationale COOPI</h4>
+                </div>
+                <div class="partner-logo">
+                    <img src="images/Logo BEKOU.png" alt="Partenaire 2">
+                    <h4 class="partner-name" data-translate="partner-bekou">Le Fond BEKOU</h4>
+                </div>
+                <div class="partner-logo">
+                    <img src="images/logo.png" alt="Partenaire 3">
+                    <h4 class="partner-name" data-translate="partner-emaio">Association E Mai Oko</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Missions Section -->
+    <section id="missions" class="missions">
+        <div class="section-header">
+            <h2>Nos Domaines d'Interventions</h2>
+            <p>L'Association E Mai Oko intervient suivants ses 8 piliers afin d'atteindre ses objectifs.
+                Découvrez nos domaines d'action pour un impact positif.</p>
+        </div>
+        <div class="missions-grid">
+           <!-- Ligne du haut : 4 domaines -->
+            <div class="mission-card">
+                <div class="mission-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Éducation</h3>
+                <p>Promouvoir l'accès à l'éducation pour tous et soutenir la formation professionnelle.</p>
+            </div>
+            <div class="mission-card">
+                <div class="mission-icon">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <h3>Santé</h3>
+                <p>Améliorer l'accès aux soins de santé communautaire et sensibiliser aux bonnes pratiques sanitaires.</p>
+            </div>
+            <div class="mission-card">
+                <div class="mission-icon">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <h3>Environnement</h3>
+                <p>Protéger notre environnement et promouvoir des pratiques écologiques durables.</p>
+            </div>
+            <div class="mission-card">
+                <div class="mission-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Relance Économique</h3>
+                <p>Stimuler l'économie locale à travers l'entrepreneuriat, la création d'emplois et le soutien aux initiatives économiques communautaires.</p>
+            </div>
+           <!-- Ligne du bas : 4 domaines -->
+            <div class="mission-card">
+                <div class="mission-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Protection Civile</h3>
+                <p>Prévenir les risques liés aux VBG, protéger les populations et intervenir efficacement lors des catastrophes naturelles ou humaines.</p>
+            </div>
+            <div class="mission-card">
+                <div class="mission-icon">
+                    <i class="fas fa-apple-alt"></i>
+                </div>
+                <h3>Sécurité Alimentaire</h3>
+                <p>Assurer l'accès à une alimentation saine et suffisante pour tous, lutter contre la malnutrition et promouvoir l'agriculture durable.</p>
+            </div>
+            <div class="mission-card">
+                <div class="mission-icon">
+                    <i class="fas fa-tint"></i>
+                </div>
+                <h3>Eau, Hygiène et Assainissement</h3>
+                <p>Favoriser l'accès à l'eau potable, promouvoir l'hygiène et améliorer les infrastructures d'assainissement pour la santé publique.</p>
+            </div>
+            <div class="mission-card">
+                <div class="mission-icon">
+                    <i class="fas fa-balance-scale"></i>
+                </div>
+                <h3>Bonne Gouvernance</h3>
+                <p>Promouvoir la transparence, la responsabilité et l'éthique dans la gestion des affaires publiques et associatives.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets Section -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos Projets</h2>
+                <p>Découvrez nos initiatives en cours et celles réalisées</p>
+                <h3 style="margin-top: 30px; font-size: 28px; margin-bottom: 20px; text-align: center; font-weight: 700; color: #000000;">Activités en cours</h3>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/image37.jpg" alt="Formations Professionnelles">
+                    </div>
+                    <div class="project-content">
+                        <h3>Formations Professionnelles</h3>
+                        <p>Formation en Informatique, au Développement des compétences professionnelles et techniques pour améliorer l'employabilité et l'autonomie économique des membres de la communauté.</p>
+                        <div class="project-status">
+                            <span class="status-badge active">En cours</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/hygiene.jpg" alt="Eau, Hygiène et Assainissement">
+                    </div>
+                    <div class="project-content">
+                        <h3>Eau, Hygiène et Assainissement</h3>
+                        <p>Former les Leaders Communautaires et sensibiliser la communauté à promouvoir l'accès à l'eau potable, à l'hygiène et améliorer les infrastructures d'assainissement pour la santé publique.</p>
+                        <div class="project-status">
+                            <span class="status-badge active">En cours</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/font3.jpg" alt="Sensibilisation à la Gestion Environnementale">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sensibiliser à la Gestion Environnementale</h3>
+                        <p>Programme d'éducation et de sensibilisation sur la protection de l'environnement, la gestion des déchets et les pratiques durables pour la communauté.</p>
+                        <div class="project-status">
+                            <span class="status-badge completed">Terminé</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/relance_économique.jpg" alt="Relance Économique">
+                    </div>
+                    <div class="project-content">
+                        <h3>Relance Économique</h3>
+                        <p>Stimuler l'économie locale à travers l'entrepreneuriat, la création d'emplois et le soutien aux initiatives économiques communautaires.</p>
+                        <div class="project-status">
+                            <span class="status-badge active">En cours</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/sécurité_alimentaire.jpg" alt="Sécurité Alimentaire">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sécurité Alimentaire</h3>
+                        <p>Assurer l'accès à une alimentation saine et suffisante pour tous, lutter contre la malnutrition et promouvoir l'agriculture durable.</p>
+                        <div class="project-status">
+                            <span class="status-badge active">En cours</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/vbg.jpeg" alt="Protection Civile">
+                    </div>
+                    <div class="project-content">
+                        <h3>Protection Civile</h3>
+                        <p>Prévenir les risques liés aux VBG, protéger les populations et intervenir efficacement lors des catastrophes naturelles ou humaines.</p>
+                        <div class="project-status">
+                            <span class="status-badge active">En cours</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="activites-realisees-titre">Activités réalisées</div>
+        <!-- Galerie des activités réalisées -->
+        <div class="gallery-section" style="margin-top: 48px;">
+            <h3>Galerie des activités réalisées</h3>
+            <div class="gallery-grid">
+                <!-- 8 images : 4 en haut, 4 en bas -->
+                <div class="gallery-item">
+                    <img src="images/image2.jpg" alt="Activité 1">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Activité 1</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&w=400', 'Activité 1')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image1.jpg" alt="Activité 2">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Activité 2</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&w=400', 'Activité 2')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image38.jpg" alt="Activité 3">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Activité 3</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=400', 'Activité 3')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image4.jpg" alt="Activité 4">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Activité 4</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&w=400', 'Activité 4')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image5.jpg" alt="Activité 5">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Activité 5</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/1181395/pexels-photo-1181395.jpeg?auto=compress&w=400', 'Activité 5')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/1181395/pexels-photo-1181395.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image6.jpg" alt="Activité 6">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Activité 6</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&w=400', 'Activité 6')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image39.jpg" alt="Activité 7">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Activité 7</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&w=400', 'Activité 7')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image8.jpg" alt="Activité 8">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Activité 8</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&w=400', 'Activité 8')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top: 18px;">
+                <button id="toggle-gallery" class="btn btn-primary">Voir plus de photos</button>
+            </div>
+        </div>
+         <!-- Galerie complète (20 photos, 4 par ligne) -->
+        <div id="galerie-photos" class="gallery-full-section" style="margin-top: 48px; display: none;">
+            <h3>Galerie Complète</h3>
+            <div class="gallery-full-grid">
+                <div class="gallery-item">
+                    <img src="images/image9.jpg" alt="Photo 1">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 1</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&w=400', 'Photo 1')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image11.jpg" alt="Photo 2">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 2</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&w=400', 'Photo 2')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image12.jpg" alt="Photo 3">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 3</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=400', 'Photo 3')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image13.jpg" alt="Photo 4">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 4</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&w=400', 'Photo 4')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image15.jpg" alt="Photo 5">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 5</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/1181395/pexels-photo-1181395.jpeg?auto=compress&w=400', 'Photo 5')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/1181395/pexels-photo-1181395.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image16.jpg" alt="Photo 6">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 6</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&w=400', 'Photo 6')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image17.jpg" alt="Photo 7">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 7</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&w=400', 'Photo 7')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image18.jpg" alt="Photo 8">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 8</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&w=400', 'Photo 8')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image19.jpg" alt="Photo 9">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 9</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&w=400', 'Photo 9')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image21.jpg" alt="Photo 10">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 10</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&w=400', 'Photo 10')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image23.jpg" alt="Photo 11">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 11</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&w=400', 'Photo 11')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image24.jpg" alt="Photo 12">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 12</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&w=400', 'Photo 12')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image26.jpg" alt="Photo 13">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 13</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&w=400', 'Photo 13')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image27.jpg" alt="Photo 14">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 14</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&w=400', 'Photo 14')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image28.jpg" alt="Photo 15">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 15</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&w=400', 'Photo 15')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image29.jpg" alt="Photo 16">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 16</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&w=400', 'Photo 16')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image30.jpg" alt="Photo 17">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 17</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&w=400', 'Photo 17')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image33.jpg" alt="Photo 18">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 18</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&w=400', 'Photo 18')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image34.jpg" alt="Photo 19">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 19</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/1181695/pexels-photo-1181695.jpeg?auto=compress&w=400', 'Photo 19')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/1181695/pexels-photo-1181695.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image36.jpg" alt="Photo 20">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h4>Photo 20</h4>
+                            <div class="overlay-buttons">
+                                <button class="btn-overlay btn-view" onclick="viewImage('https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&w=400', 'Photo 20')">
+                                    <i class="fas fa-eye"></i> Voir
+                                </button>
+                                <a href="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&w=400" class="btn-overlay btn-download" download>
+                                    <i class="fas fa-download"></i> Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Vidéos de nos activités réalisées -->
+        <div class="videos-section" style="margin-top: 48px;">
+            <h3>Vidéos de nos activités réalisées</h3>
+            <div class="videos-grid">
+                <!-- 4 vidéos : 2 en haut, 2 en bas -->
+                <iframe src="media/media1.mp4" title="Vidéo 1" frameborder="0" allowfullscreen></iframe>
+                <iframe src="media/media2.mp4" title="Vidéo 2" frameborder="0" allowfullscreen></iframe>
+                <iframe src="media/media3.mp4" title="Vidéo 3" frameborder="0" allowfullscreen></iframe>
+                <iframe src="media/media4.mp4" title="Vidéo 4" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Librairies E MAI Oko -->
+        <div class="library-section" style="margin-top: 48px;">
+            <h3>Librairies E MAI Oko</h3>
+            <div class="library-grid">
+                <div class="library-item">
+                    <div class="library-content">
+                        <h4>Dépliant de Présentation</h4>
+                        <p>Découvrez notre association à travers ce dépliant de présentation complet. Ce document vous présente notre histoire, nos missions, nos valeurs et nos domaines d'intervention. Un aperçu détaillé de l'Association E MAI Oko et de son engagement pour le développement communautaire.</p>
+                        <div class="file-preview">
+                            <div class="file-icon">
+                                <i class="fas fa-file-pdf"></i>
+                                <span class="file-name">Dépliant_présentation.pdf</span>
+                                <span class="file-size">2.5 MB</span>
+                            </div>
+                        </div>
+                        <div class="download-section">
+                            <a href="documents/Dépliant_présentation.pdf" class="btn btn-download" download>
+                                <i class="fas fa-download"></i>
+                                Télécharger
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-item">
+                    <div class="library-content">
+                        <h4>Dépliant de Sensibilisation</h4>
+                        <p>Ce dépliant de sensibilisation présente nos actions concrètes et nos programmes d'intervention. Vous y trouverez des informations sur nos projets en cours, nos réalisations et nos objectifs pour l'avenir. Un guide pratique pour comprendre notre impact sur la communauté.</p>
+                        <div class="file-preview">
+                            <div class="file-icon">
+                                <i class="fas fa-file-pdf"></i>
+                                <span class="file-name">Dépliant_sensibilisation.pdf</span>
+                                <span class="file-size">3.1 MB</span>
+                            </div>
+                        </div>
+                        <div class="download-section">
+                            <a href="documents/Dépliant_sensibilisation.pdf" class="btn btn-download" download>
+                                <i class="fas fa-download"></i>
+                                Télécharger
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Équipe Section -->
+    <section id="equipe" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Équipe Dirigeante</h2>
+                <p>Les personnes qui font la différence</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/armel.jpeg" alt="Coordonnateur">
+                    </div>
+                    <div class="member-info">
+                        <h3>Armel Saturnin DENGBA</h3>
+                        <p class="member-role">Coordonnateur</p>
+                        <p class="member-description">Dirige et coordonne l'ensemble des activités de l'association, assure la supervision générale et la prise de décisions stratégiques.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/caleb.jpeg" alt="Coordonnateur Adjoint">
+                    </div>
+                    <div class="member-info">
+                        <h3>Billy Caleb GNIKPINGO</h3>
+                        <p class="member-role">Coodonnateur Adjoint</p>
+                        <p class="member-description">Assiste le coordonnateur dans la gestion quotidienne et assure la coordination des équipes et des projets en cours.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/yvon.jpg" alt="Rapporteur Général">
+                    </div>
+                    <div class="member-info">
+                        <h3>Yvon DOTTE</h3>
+                        <p class="member-role">Rapporteur Général</p>
+                        <p class="member-description">Assure la rédaction et la diffusion des rapports d'activités, des procès-verbaux et de la communication interne de l'association.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/Elsa.jpg" alt="Trésorière">
+                    </div>
+                    <div class="member-info">
+                        <h3>Elsa NGAYAKON</h3>
+                        <p class="member-role">Trésorière</p>
+                        <p class="member-description">Gère les finances de l'association, supervise les comptes, les budgets et assure la transparence financière dans toutes les opérations.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/signey.jpg" alt="Commissaire aux Comptes">
+                    </div>
+                    <div class="member-info">
+                        <h3>Signey Lionel GUELA</h3>
+                        <p class="member-role">Commissaire aux Comptes</p>
+                        <p class="member-description">Contrôle et vérifie la régularité des comptes de l'association, assure la transparence financière et la conformité comptable.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/aurore.jpg" alt="Chargée de Matériels">
+                    </div>
+                    <div class="member-info">
+                        <h3>Aurore Victoria KOSSI</h3>
+                        <p class="member-role">Chargée de Matériels</p>
+                        <p class="member-description">Assure la gestion, l'inventaire et la maintenance de tous les équipements et matériels de l'association pour optimiser leur utilisation.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/adam.jpeg" alt="Conseiller Technique">
+                    </div>
+                    <div class="member-info">
+                        <h3>Adam BERANG</h3>
+                        <p class="member-role">Conseiller Technique</p>
+                        <p class="member-description">Apporte son expertise technique et ses conseils stratégiques pour optimiser les projets et les initiatives de l'association.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/prosper.jpg" alt="Coordonnateur Projet">
+                    </div>
+                    <div class="member-info">
+                        <h3>Prosper DILLA</h3>
+                        <p class="member-role">Coordonnateur Projet</p>
+                        <p class="member-description">Assure la coordination et le suivi de tous les projets de l'association, de leur conception à leur réalisation.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/Appollinaire.jpg" alt="Chargé des Projets">
+                    </div>
+                    <div class="member-info">
+                        <h3>Appollinaire NANTIGA</h3>
+                        <p class="member-role">Chargé des Projets</p>
+                        <p class="member-description">Gère et supervise l'exécution des projets spécifiques de l'association, en veillant à leur bon déroulement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contactez-Nous</h2>
+                <p>Rejoignez-nous ou posez-nous vos questions</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Adresse</h4>
+                            <p>Quartier Gobongo Wananga<br>Bangui-4e Arrondissement</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+236 72 69 34 14 / 72 02 26 23<br>+236 75 68 94 21 / 75 58 93 48</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>asloemaioko@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ajout de la section "Rejoignez-nous" juste avant le footer -->
+    <section id="rejoignez-nous" class="join-section">
+    <div class="container">
+        <div class="section-header" style="display: flex; align-items: center; justify-content: flex-start; gap: 32px; flex-wrap: wrap;">
+            <div style="flex: 1 1 320px; min-width: 220px;">
+                <h2>Rejoignez-nous</h2>
+                <p>
+                    Devenez membre de l'association É Maï Oko et participez activement à la transformation de notre communauté. Ensemble, nous pouvons avoir un impact positif et durable !
+                </p>
+            </div>
+            <img src="images/image2.jpg"
+                alt="Rejoignez-nous"
+                class="join-img"
+                style="max-width: 340px; width: 100%; border-radius: 14px; box-shadow: 0 2px 16px rgba(34,197,94,0.10); margin-left: 18px;">
+        </div>
+        <div class="join-why">
+            <h3>Pourquoi nous rejoindre ?</h3>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-users"></i></div>
+                    <div class="why-title">Solidarité</div>
+                    <p>Rejoindre l'association, c'est intégrer une communauté soudée qui s'entraide et avance ensemble pour le bien commun.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-leaf"></i></div>
+                    <div class="why-title">Impact environnemental</div>
+                    <p>Participez à des actions concrètes pour la protection de l'environnement et la préservation de la nature.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <div class="why-title">Formations</div>
+                    <p>Bénéficiez de formations et d'ateliers pour développer vos compétences et votre engagement citoyen.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-network-wired"></i></div>
+                    <div class="why-title">Réseaux</div>
+                    <p>Élargissez votre réseau et échangez avec des personnes partageant les mêmes valeurs et ambitions.</p>
+                </div>
+            </div>
+        </div>
+        <div class="join-types">
+            <h3>Types d'Adhésion</h3>
+            <div class="types-grid">
+                <div class="type-card">
+                    <div class="type-title">Membre Actif</div>
+                    <p>Participe activement aux activités et a le droit de vote.</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-title">Membre Sympathisant</div>
+                    <p>Soutient l'association sans obligation de participation active.</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-title">Membre Bénéficiaire</div>
+                    <p>Bénéficie des actions et programmes de l'association.</p>
+                </div>
+            </div>
+        </div>
+        <div class="join-form-section">
+            <h3>Formulaire d'Adhésion</h3>
+            <form class="join-form">
+                <div class="form-group">
+                    <input type="text" name="fullname" placeholder="Nom complet" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Adresse email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phone" placeholder="Numéro de téléphone" required>
+                </div>
+                <div class="form-group">
+                    <select name="sexe" required>
+                        <option value="">Sexe</option>
+                        <option value="Homme">Homme</option>
+                        <option value="Femme">Femme</option>
+                        <option value="Autre">Autre</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="profession" placeholder="Profession" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="adresse" placeholder="Adresse" required>
+                </div>
+                <div class="form-group">
+                    <select name="type-adhesion" required>
+                        <option value="">Type d'adhésion souhaité</option>
+                        <option value="Membre Actif">Membre Actif</option>
+                        <option value="Membre Sympathisant">Membre Sympathisant</option>
+                        <option value="Membre Bénéficiaire">Membre Bénéficiaire</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="motivation" placeholder="Motivation pour rejoindre l'association" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Centres d'intérêt :</label>
+                    <div class="interets-list">
+                        <label class="interet-item">
+                            <input type="checkbox" name="interets" value="Protection de l'environnement">
+                            <span>Protection de l'environnement</span>
+                        </label>
+                        <label class="interet-item">
+                            <input type="checkbox" name="interets" value="Cohésion sociale">
+                            <span>Cohésion sociale</span>
+                        </label>
+                        <label class="interet-item">
+                            <input type="checkbox" name="interets" value="Développement communautaire">
+                            <span>Développement communautaire</span>
+                        </label>
+                        <label class="interet-item">
+                            <input type="checkbox" name="interets" value="Formation et éducation">
+                            <span>Formation et éducation</span>
+                        </label>
+                        <label class="interet-item">
+                            <input type="checkbox" name="interets" value="Activités culturelles">
+                            <span>Activités culturelles</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Votre photo :</label>
+                    <input type="file" name="photo" accept="image/*">
+                </div>
+                <button type="submit" class="btn btn-join">Soumettre mon adhésion</button>
+            </form>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><span style="font-weight: 700; letter-spacing: 1px;">É</span> <span style="font-weight: 700; letter-spacing: 1px;">Maï Oko</span></h3>
+                    <p>Ensemble pour un avenir meilleur. Rejoignez-nous dans notre mission de développement communautaire.</p>
+                    <div class="social-links">
+                        <h4 class="social-media-title">Suivez-nous sur les réseaux sociaux</h4>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/AssociationEMaiOko" target="_blank" class="social-link">
+                                <div class="icon-container">
+                                    <i class="fab fa-facebook"></i>
+                                </div>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://wa.me/23675689421" target="_blank" class="social-link">
+                                <div class="icon-container">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <span>WhatsApp</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <div class="icon-container">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <div class="icon-container">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#a-propos">À Propos</a></li>
+                        <li><a href="#missions">Missions</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Quartier Gobongo Wananga, Rue PK9, Bangui.</p>
+                    <p><i class="fas fa-phone"></i> +236 72 69 34 14 / 72 02 26 23<br>+236 75 68 94 21 / 75 58 93 48</p>
+                    <p><i class="fas fa-envelope"></i> alsoemaioko@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Association E Mai Oko. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal pour voir les images -->
+    <div id="imageModal" class="image-modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <img id="modalImage" class="modal-image" src="" alt="">
+            <div id="modalTitle" class="modal-title"></div>
+        </div>
+    </div>
+
+    <script src="translations.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
