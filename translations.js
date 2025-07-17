@@ -39,7 +39,7 @@ const translations = {
         "about-title": "À Propos de Nous",
         "about-subtitle": "Découvrez notre histoire et nos valeurs",
         "about-history-title": "Notre Histoire",
-        "about-history-text": "L'association E Maï Oko (Développons nous en-semble en langue Sango) a été créée le 28 Mai 2022 à Bangui par les adhérents de ladite association.. Son siège se situe au quartier Gobongo Wananga dans le 4e Arrondissement de Bangui. Sa devise est ; Solidarité-Travail-Développement. L'objectif de l'association est d'assurer un développement socio-économique et culturel pour l'atteinte des Objectifs Durable pour le Développement (ODD). Nous croyons en la force de l'unité et en la capacité de chacun à contribuer au bien-être collectif.",
+        "about-history-text": "L'association É Maï Oko (Développons nous en-semble en langue Sango) a été créée le 28 Mai 2022 à Bangui par les adhérents de ladite association.. Son siège se situe au quartier Gobongo Wananga dans le 4e Arrondissement de Bangui. Sa devise est ; Solidarité-Travail-Développement. L'objectif de l'association est d'assurer un développement socio-économique et culturel pour l'atteinte des Objectifs Durable pour le Développement (ODD). Nous croyons en la force de l'unité et en la capacité de chacun à contribuer au bien-être collectif.",
         "about-values-title": "Nos Valeurs",
         "about-solidarite": "Solidarité",
         "about-travail": "Travail",
@@ -50,11 +50,11 @@ const translations = {
         "partners-subtitle": "Ensemble pour un impact plus fort",
         "partner-coopi": "L'ONG International COOPI",
         "partner-bekou": "Le Fond BEKOU",
-        "partner-emaio": "Association E Mai Oko",
+        "partner-emaio": "Association É Maï Oko",
 
         // Missions Section
         "missions-title": "Nos Domaines d'Interventions",
-        "missions-subtitle": "L'Association E Mai Oko intervient suivants ses 8 piliers afin d'atteindre ses objectifs. Découvrez nos domaines d'action pour un impact positif.",
+        "missions-subtitle": "L'Association É Maï Oko intervient suivants ses 8 piliers afin d'atteindre ses objectifs. Découvrez nos domaines d'action pour un impact positif.",
         "mission-education-title": "Éducation",
         "mission-education-desc": "Promouvoir l'accès à l'éducation pour tous et soutenir la formation professionnelle.",
         "mission-sante-title": "Santé",
@@ -75,7 +75,7 @@ const translations = {
         // Projets Section
         "projets-title": "Nos Projets",
         "projets-subtitle": "Découvrez nos projets en cours et réalisés",
-        "librairies-title": "Librairies E MAI Oko",
+        "librairies-title": "Librairies É Maï Oko",
         "librairies-subtitle": "Téléchargez nos documents de présentation",
         "videos-title": "Nos Vidéos",
         "videos-subtitle": "Découvrez nos actions en images",
@@ -167,7 +167,7 @@ const translations = {
 
         // Librairie Section
         "librairie-presentation-title": "Dépliant de Présentation",
-        "librairie-presentation-desc": "Découvrez notre association à travers ce dépliant de présentation complet. Ce document vous présente notre histoire, nos missions, nos valeurs et nos domaines d'intervention. Un aperçu détaillé de l'Association E MAI Oko et de son engagement pour le développement communautaire.",
+        "librairie-presentation-desc": "Découvrez notre association à travers ce dépliant de présentation complet. Ce document vous présente notre histoire, nos missions, nos valeurs et nos domaines d'intervention. Un aperçu détaillé de l'Association É Maï Oko et de son engagement pour le développement communautaire.",
         "librairie-sensibilisation-title": "Dépliant de Sensibilisation",
         "librairie-sensibilisation-desc": "Ce dépliant de sensibilisation présente nos actions concrètes et nos programmes d'intervention. Vous y trouverez des informations sur nos projets en cours, nos réalisations et nos objectifs pour l'avenir. Un guide pratique pour comprendre notre impact sur la communauté.",
         "librairie-file-presentation": "Dépliant_présentation.pdf",

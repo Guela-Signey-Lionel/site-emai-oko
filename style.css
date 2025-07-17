@@ -2383,3 +2383,20 @@ section {
     color: #d1d5db !important;
     font-weight: normal !important;
 }
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus,
+.join-form input:focus,
+.join-form textarea:focus,
+.join-form select:focus {
+    border: 2px solid #22c55e !important;
+    outline: none;
+    box-shadow: none !important;
+}
+
+input:focus, textarea:focus, select:focus {
+  border: 2px solid #22c55e !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
