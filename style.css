@@ -397,6 +397,40 @@ body {
     }
 }
 
+@media (max-width: 900px) {
+  .carousel-info {
+    padding: 10px 12px;
+    font-size: 0.85rem;
+    background: rgba(34, 197, 94, 0.18); /* plus transparent */
+    max-height: 55%; /* augmenté pour afficher plus de texte */
+    overflow-y: auto;
+  }
+  .carousel-info h3 {
+    font-size: 1rem;
+    margin-bottom: 4px;
+  }
+  .carousel-info p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-info {
+    padding: 6px 8px;
+    font-size: 0.8rem;
+    background: rgba(34, 197, 94, 0.13); /* encore plus transparent */
+    max-height: 60%; /* augmenté pour afficher plus de texte */
+    overflow-y: auto;
+  }
+  .carousel-info h3 {
+    font-size: 0.95rem;
+    margin-bottom: 2px;
+  }
+  .carousel-info p {
+    font-size: 0.78rem;
+  }
+}
+
 /* Pour les très petits écrans */
 @media (max-width: 480px) {
     .hero {
@@ -2399,4 +2433,21 @@ input:focus, textarea:focus, select:focus {
   border: 2px solid #22c55e !important;
   outline: none !important;
   box-shadow: none !important;
+}
+
+@media (max-width: 900px) {
+  .carousel-info-bonne-gouvernance {
+    padding-top: initial !important;
+  }
+  .carousel-item img[src$="bg.png"] {
+    margin-top: 28px !important;
+  }
+}
+@media (max-width: 480px) {
+  .carousel-info-bonne-gouvernance {
+    padding-top: initial !important;
+  }
+  .carousel-item img[src$="bg.png"] {
+    margin-top: 18px !important;
+  }
 }
